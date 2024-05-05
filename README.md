@@ -5,24 +5,26 @@ can custom build your own Bot Army! This is our app:
 
 ![checkpoint demo](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-hooks-code-challenge-bot-battlr/checkpoint_demo.gif)
 
-Here's the scenario: a galactic overlord has hired you, a galactic web
-developer, to develop a galactic web app that will allow them to browse through
-a list of robots, view a robot's details, and, enlist a bot into their army.
-
 ## Instructions
 
-For this project, you’ll be building out a React application that displays a
-list of available bots, among other features. Try your best to find the right
-places to insert code into the established code base.
+Building out a React application that displays a
+list of available bots, among other features.
 
-Part of what this code challenge is testing is your ability to follow given
-instructions. While you will definitely have a significant amount of freedom in
-how you implement the features, be sure to carefully read the directions for
-setting up the application.
+## Development Requirements
+1. code editor (eg. Visual Studio code)
+2. npm (node package manager)
+3. Json-server - to run server (backend)
+
+### To Get the code:
+copy this link: ```https://github.com/spookeyy/Bot-Battlr-code-challenge.git```
+
+. FOrk and git clone the repository to your local machine
+. Navigate to the local repository by running this command: 
+``` cd Bot-Battlr-code-challenge```
+. open with vs code:
+```code .```
 
 ## Setup
-
-After unbundling the project:
 
 1. Run `npm install` in your terminal.
 2. Run `npm run server`. This will run your backend on port `8002`.
@@ -137,3 +139,6 @@ As a user, I should be able to:
   `SortBar`.
 - Only enlist **one** bot from each `bot_class`. The classes are
   `["Support", "Medic", "Assault", "Defender", "Captain", "Witch"]`.
+
+##Author
+spookeyy
