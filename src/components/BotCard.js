@@ -10,14 +10,9 @@ const botTypeClasses = {
 };
 
 function BotCard({ bot, botFunction }) {
-
   return (
     <div className="ui column">
-      <div
-        className="ui card"
-        key={bot.id}
-        onClick={() => botFunction(bot)}
-      >
+      <div className="ui card" key={bot.id} onClick={() => botFunction(bot)}>
         <div className="image">
           <img alt="oh no!" src={bot.avatar_url} />
         </div>
